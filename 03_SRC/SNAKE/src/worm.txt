@@ -1,0 +1,67 @@
+
+窗口
+  |-- WormGame
+         |-- Worm
+         |     |-- Cell
+         |-- Food 
+ 
+模型 (row, col)
+  1 30行 30列 组成的场地
+  2 蛇(Worm) 有节点组成
+  3 食物是一个节点
+  4 节点(row, col)
+  
+类
+  Cell 
+   |-- row, col
+   
+  Worm
+   |-- LinkedList<Cell> cells (0,0) (0,1) ...(0,10)
+   |-- int direction 方向
+   
+  WomeGame extends JPanel
+   |-- Cell food
+   |-- Worm worm
+   |-- Timer timer
+   |-- main 
+   
+数据的初始化, 构造器   
+  
+
+绘制界面
+
+功能设计: 
+ 
+1 蛇的运动 
+
+2 碰边界的处理
+
+3 吃到自己的处理
+
+4 吃食物
+
+5 键盘事件的处理
+
+6 定时运行
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+       
+   
+
+   
+   
+   
